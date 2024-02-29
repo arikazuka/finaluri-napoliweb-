@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style3.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <title>Document</title>
+</head>
+
+<body class="body">
+
+    <header class="navbar">
+        <ul class="nav">
+            <img src="data:image/png;base64,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"
+                alt="" />
+            <a href="home.html">Napoli</a>
+            <a href="home2.html">The club</a>
+            <a href="">Season</a>
+            <a href="">News</a>
+            <a href="home3.html">Tickets</a>
+            <a href="">shop</a>
+            <a href="">Azzuri</a>
+        </ul>
+
+        <button class="btn">Button</button>
+        <button class="btn2">Button</button>
+    </header>
+
+    <section>
+        <div style="color: white;" class="section1">
+            <img src="https://b.fssta.com/uploads/application/soccer/competition-logos/SerieA.png" alt="" class="serieA">
+            <p style="color: yellow;">Matchday 16</p>
+            <h1>WED 04 JAN</h1>
+            <div class="teams">
+                <h1>inter</h1>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/FC_Internazionale_Milano_2021.svg/1200px-FC_Internazionale_Milano_2021.svg.png" class="inter">
+                <p style="color: yellow;">Kickoff CER <br> <span style="font-size: 40px; color: white;">20:45</span></p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/SSC_Neapel.svg/800px-SSC_Neapel.svg.png" class="napoli">
+                <h1>Napoli</h1>
+            </div>
+
+            <p>Time until next match</p>
+            <h1>32 : 04 : 27</h1>
+            <p style="color: yellow; word-spacing: 30px;">Day Hours Mins</p>
+        </div>
+    </section>
+
+
+    <section style="display: flex; ">
+        <div class="tickets">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Etihad_Stadium.jpg" class="stadium">
+            <div style="padding: 20px;">
+                <h1>Basic tickets</h1>
+                <hr>
+                <p>Privillege</p>
+                <p>standart seats</p>
+                <button style="background-color: blue; color: yellow; width: 300px;">Buy tickets</button>
+            </div>
+        </div>
+
+        <div class="tickets">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Etihad_Stadium.jpg" class="stadium">
+            <div style="padding: 20px;">
+                <h1>Basic tickets</h1>
+                <hr>
+                <p>Privillege</p>
+                <p>standart seats</p>
+                <button style="background-color: blue; color: yellow; width: 300px;">Buy tickets</button>
+            </div>
+        </div>
+
+        <div class="tickets">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/Etihad_Stadium.jpg" class="stadium">
+            <div style="padding: 20px;">
+                <h1>Basic tickets</h1>
+                <hr>
+                <p>Privillege</p>
+                <p>standart seats</p>
+                <button style="background-color: blue; color: yellow; width: 300px;">Buy tickets</button>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+    <div class="footer">
+        <a href="">Mobile app</a>
+        <a href="">community</a>
+        <a href="">company</a>
+        <img src="data:image/png;base64,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"
+            alt="" />
+        <a href="">help desk</a>
+        <a href="">blog</a>
+        <a href="">resources</a>
+    </div>
+
+
+            <div class="footer">
+                <div class="social-icons">
+                    <div class="social-icon"><i class="fab fa-facebook"></i></div>
+                    <div class="social-icon"><i class="fab fa-instagram"></i></div>
+                    <div class="social-icon"><i class="fab fa-youtube"></i></div>
+                    <div class="social-icon"><i class="fab fa-twitter"></i></div>
+                </div>
+                <div class="copyright-text">
+                    © SSC Napoli S.p.A., Via del Maio di Porto, 9 80133 Napoli Italia P. <br> IVA 04855461218
+                </div>
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+                crossorigin="anonymous"></script>
+
+
+
+</body>
+</head>
+
+</html>

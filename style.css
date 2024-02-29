@@ -1,0 +1,462 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  height: 3800px;
+  background-image: linear-gradient(rgb(11, 112, 255), rgb(36, 36, 75));
+}
+.body{
+  height: 3000px;
+  background-image: linear-gradient(rgb(11, 112, 255), rgb(36, 36, 75));
+}
+.navbar {
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: #120f1e;
+}
+
+.nav {
+  position: relative;
+  width: 490px;
+  height: 30;
+  left: 160px;
+}
+.nav > img {
+  position: relative;
+  top: 5px;
+  height: 26px;
+  width: 30px;
+}
+.nav > a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > .btn {
+  position: relative;
+
+  left: 70px;
+  width: 170px;
+  height: 37px;
+  bottom: 6px;
+  border-radius: 6px;
+  background-color: #084aa7;
+  color: white;
+  border: none;
+}
+.navbar > .btn2 {
+  position: relative;
+  right: 240px;
+
+  width: 170px;
+  height: 37px;
+  bottom: 6px;
+  border-radius: 6px;
+  background-color: #084aa7;
+  color: white;
+  border: none;
+}
+
+.hellow {
+  width: 100%;
+  height: 720px;
+}
+.diego {
+  width: 100%;
+  height: 720px;
+}
+
+.best {
+  position: relative;
+  top: 70px;
+  text-align: center;
+  position: relative;
+  width: 100%px;
+  height: 160px;
+}
+
+
+.best > h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.best > h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.profiles {
+  align-items: center;
+
+  gap: 100px;
+  width: 100%;
+  height: 550px;
+}
+
+.profiles > div {
+  filter: opacity(1);
+  box-shadow: 0px 4px 4px 0px rgb(255, 248, 43);
+  border-radius: 100%;
+  position: relative;
+  background-color: rgb(42, 50, 85);
+  height: 300px;
+  width: 300px;
+}
+
+.player1 {
+  top: 100px;
+  left: 170px;
+}
+.player2 {
+  bottom: 200px;
+  left: 590px;
+}
+.player3 {
+  bottom: 497px;
+  left: 1000px;
+}
+
+.player1 > img,
+.player2 > img,
+.player3 > img {
+  position: relative;
+  bottom: 60px;
+  height: 340px;
+  width: 280px;
+}
+.player1 > p,
+.player2 > p,
+.player3 > p {
+  position: relative;
+  bottom: 29px;
+  color: white;
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.player1 div,
+.player2 div,
+.player3 div {
+  width: 300px;
+  height: 120px;
+}
+.stats1 p,
+.stats2 p,
+.stats3 p {
+  position: relative;
+  right: 100px;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.app1 {
+  height: 22px;
+  position: relative;
+  left: 178px;
+  border-radius: 50%;
+  filter: opacity(1);
+  box-shadow: 0px 4px 4px 0px rgb(255, 248, 43);
+}
+.app2 {
+  height: 22px;
+  position: relative;
+  left: 205px;
+  border-radius: 50%;
+  filter: opacity(1);
+  box-shadow: 0px 4px 4px 0px rgb(255, 248, 43);
+}
+.app3 {
+  height: 22px;
+  position: relative;
+  left: 198px;
+  border-radius: 50%;
+  filter: opacity(1);
+  box-shadow: 0px 4px 4px 0px rgb(255, 248, 43);
+}
+
+.buyform {
+  position: relative;
+  width: 1000px;
+  height: 94px;
+  top: 140px;
+  left: 260px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 94px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: white;
+}
+
+.fan {
+  position: relative;
+  top: 220px;
+
+  height: 500px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+}
+.fan > .tshirt {
+  height: 500px;
+  width: 380px;
+  background-color: rgb(42, 50, 85);
+  position: relative;
+  left: 60px;
+}
+
+.tshirt > img {
+  height: 310px;
+  width: 230px;
+}
+
+.tshirt .name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+}
+.tshirt .price {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.tshirt button {
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  padding: 0px;
+}
+
+
+
+.also_order{
+  position: relative;
+  top: 222px;
+  margin: 0px;
+  
+  width: 100%;
+  height: 590px;
+}
+
+.also_order p{
+ position: relative;
+ right: 550px;
+ top: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 3px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+
+}
+
+.also_order button{
+  position: relative;
+  right: 110px;
+  top: 60px;
+  border-radius: 4px;
+  width:150px ;
+  height: 38px;
+  background-color: rgba(248, 238, 0, 1);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+
+}
+.big{
+  position: relative;
+  width: 500px;
+  height: 500x;
+  bottom: 40px;
+  rotate: 8deg;
+
+}
+
+.also_order .top{
+  position: relative;
+  left: 100px;
+  bottom: 200px;
+  height: 300px;
+}
+.also_order .bott{
+  position: relative;
+  top: 40px;
+  right: 130px;
+  height: 300px;
+}
+.foot{
+  position: relative;
+  top: 300px;
+  width: 100%;
+  height: 300px;
+  gap: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.foot img{
+  position: relative;
+  top:100px ;
+  height: 180px;
+  
+}
+.footer{
+  position: relative;
+  top: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100px;
+  
+  
+}
+
+.footer img{
+  position: relative;
+  top: 5px;
+  height: 26px;
+  width: 30px;
+}
+.footer a{
+  text-decoration: none;
+  color: rgb(255, 248, 248);
+  
+}
+hr{
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons {
+position: relative;
+left: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+  color: white;
+  font-size: 24px;
+}
+
+.copyright-text {
+position: relative;
+top: 100px;
+right: 200px;
+  color: white;
+  font-size: 12px;
+}
+
+
+.form{
+  position: relative;
+  top: 30px;
+  width: 100%;
+  height: 740px;
+  gap: 10px;
+
+  
+}
+
+.std{
+  position: relative;
+  width: 511px;
+  height: 363px;
+  bottom: 188.5px;
+  left: 4.7px;
+
+}
+
+.nap{
+  
+  
+  width: 395px;
+  height: 740px;
+  left: 811px;
+
+
+}
+
+
+
+form {
+  max-width: 400px;
+  /* padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgb(42, 50, 85);
+  border-radius: 4px;
+  font-size: 16px;
+  color: rgb(42, 50, 85);
+}
+
+.name-inputs {
+  display: flex;
+  gap: 10px;
+}
+
+.name-inputs input {
+  flex: 1;
+  margin-bottom: 10px;
+}
+
+#email {
+  width: 415px;
+}
+
+input[type="submit"] {
+  background-color: rgb(13, 13, 13);
+  width: 140px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  right: 130px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgba(35, 36, 37, 0.8);
+}
+ .input{
+  margin: 0px;
+  position: relative;
+  bottom: 250px;
+  left: 290px;
+
+ }
